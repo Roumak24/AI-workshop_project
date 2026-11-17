@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - AI Workspace</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white font-sans">
+
+    <!-- Navigation Section -->
+    <nav class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+
+            <div class="text-xl font-bold text-slate-900">
+                ✦ Project
+            </div>
+
+            <div class="hidden md:flex items-center gap-8 text-sm text-slate-600">
+                <a href="#" class="hover:text-blue-600">Product</a>
+                <a href="#" class="hover:text-blue-600">Solutions</a>
+                <a href="#" class="hover:text-blue-600">Resources</a>
+                <a href="#" class="hover:text-blue-600">Pricing</a>
+                <a href="#" class="font-semibold text-slate-900">Log in</a>
+
+                <a href="#" class="bg-slate-900 text-white px-5 py-2.5 rounded-sm hover:bg-slate-700 transition">
+                    Get AI free
+                </a>
+            </div>
+
+            <button class="md:hidden text-2xl">☰</button>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-b from-orange-50 via-orange-50/50 to-white min-h-[650px] overflow-hidden">
+
+        <div class="max-w-6xl mx-auto px-6 pt-12 text-center">
+
+            <h1 class="text-4xl md:text-6xl font-bold text-slate-900 leading-tight tracking-tight">
+                Write, plan, share.
+                <br>
+                With AI at your side.
+            </h1>
+
+            <p class="text-slate-500 text-sm md:text-base mt-6 max-w-2xl mx-auto leading-relaxed">
+                It is the connected workspace where better, faster work happens.
+                Now with AI.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="relative flex justify-center items-center gap-3 mt-8">
+
+                <a href="#" class="relative bg-slate-900 text-white px-7 py-3 text-sm rounded-sm hover:bg-slate-700 transition">
+                    Get AI free →
+                </a>
+
+                <a href="#" class="relative bg-blue-600 text-white px-7 py-3 text-sm rounded-sm hover:bg-blue-700 transition">
+                    Request a demo
+                </a>
+
+            </div>
+
+
+            <!-- Dashboard Preview -->
+            <div class="relative max-w-4xl mx-auto mt-16 h-[350px]">
+
+                <!-- Main Image -->
+                <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[90%] md:w-[420px] h-[250px] z-10">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=900&q=80"
+                        alt="Project management dashboard"
+                        class="w-full h-full object-cover shadow-lg"
+                    >
+
+                </div>
+
+
+                <!-- Tasks Card -->
+                <div class="absolute top-12 left-0 md:left-8 z-20 bg-white p-4 shadow-lg rounded-sm w-44 text-left">
+
+                    <div class="flex items-center gap-2">
+                        <span class="bg-purple-100 p-2 rounded text-sm">📋</span>
+
+                        <h3 class="text-sm font-semibold text-slate-800">
+                            Tasks
+                        </h3>
+                    </div>
+
+                    <p class="text-xs text-slate-500 mt-3">
+                        12 tasks completed today
+                    </p>
+
+                </div>
+
+
+                <!-- Project Status Card -->
+                <div class="absolute top-10 right-0 md:right-8 z-20 bg-white p-4 shadow-lg rounded-sm w-48 text-left">
+
+                    <div class="flex items-center gap-2">
+                        <span class="bg-green-100 text-green-600 p-2 rounded text-sm font-bold">✓</span>
+
+                        <h3 class="text-sm font-semibold text-slate-800">
+                            Project Status
+                        </h3>
+                    </div>
+
+                    <p class="text-xs text-green-600 font-semibold mt-3">
+                        On Track
+                    </p>
+
+                </div>
+
+
+                <!-- Team Activity Card -->
+                <div class="absolute top-52 right-0 md:right-12 z-20 bg-white p-4 shadow-lg rounded-sm w-52 text-left">
+
+                    <h3 class="text-sm font-semibold text-slate-800">
+                        Team Activity
+                    </h3>
+
+                    <div class="flex items-center mt-3">
+
+                        <div class="flex -space-x-2">
+                            <img src="https://i.pravatar.cc/40?img=12" class="w-7 h-7 rounded-full border-2 border-white" alt="Team member">
+                            <img src="https://i.pravatar.cc/40?img=47" class="w-7 h-7 rounded-full border-2 border-white" alt="Team member">
+                            <img src="https://i.pravatar.cc/40?img=33" class="w-7 h-7 rounded-full border-2 border-white" alt="Team member">
+                            <img src="https://i.pravatar.cc/40?img=5" class="w-7 h-7 rounded-full border-2 border-white" alt="Team member">
+                        </div>
+
+                        <p class="text-xs text-slate-500 ml-3">
+                            +5 online
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Fixed Chat Widget -->
+    <button class="fixed bottom-6 right-6 z-50 bg-slate-900 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center text-xl hover:bg-blue-600 transition">
+        💬
+    </button>
+
+</body>
+</html>
